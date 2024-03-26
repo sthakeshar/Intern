@@ -1,0 +1,59 @@
+@media screen and (max-width:1280px) {
+    header .logo img{
+        height: 80px; 
+        width:auto;
+    }
+    .menu ul,.login{
+        font-weight: bold;
+    }
+
+
+}
+@media screen and (max-width:1024px) {
+    header .logo img{
+        height: 70px; 
+    }
+    .menu ul,.login{
+        font-weight: bold;
+    }
+    .now-showing-wrapper,.now-showing-wrapper{
+        margin-top: 10px;
+        grid-template-columns: repeat(3,1fr);
+        gap: 15px;
+    }
+}
+@media screen and (max-width:960px) {
+    header .logo img{
+        height: 60px; 
+    }
+    .menu ul,.login{
+        font-weight:normal;
+    }
+    
+}
+@media screen and (max-width:780px) {
+    header .logo img{
+        height: 50px; 
+    }
+    .menu ul{
+        display: none;
+    }
+    .login{
+        font-size: medium;
+    }
+    .now-showing-wrapper,.up-comming-wrapper{
+        margin-top: 8px;
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+    }
+}
+@media screen and (max-width:560px) {
+    header .logo img{
+        height: 40px; 
+    }
+}
+@media screen and (max-width:340px) {
+    header .logo img{
+        height: 30px; 
+    }
+}

@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 64px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(3, 37, 64);
+    position: sticky;
+    top: 0px;
+    z-index:999;
+}
+
+.logo img{
+    height: 24px;
+    width: auto;
+}
+header ul{
+    display: flex;    
+    gap: 30px; 
+}
+header a{
+    text-decoration: none;
+    color: white;
+
+}
+header li{
+    list-style: none;
+}
+.menu2 ul li a img{ 
+    height: 24px;
+    width: auto;
+}
+.EN{
+    border: 2px solid white;
+   display: flex;
+   justify-content: center;
+   width: 25px;
+   height: 25px;
+   align-items: center;
+   border-radius: 5px;
+   font-size: 10px;
+   font-weight: bold;
+}
+.banner{
+    background-image: url('../image/banner.jpg');
+    height: 400px;
+    width: auto;
+    margin: 0% 5%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+
+}
+.welcome{
+    padding-top: 80px;
+    margin-left: 50px;
+}
+h2{
+    font-size: 50px;
+}
+h3{
+    font-size: 40px;
+}
+.search{
+    height:50px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 20px;
+}
+#txtSearch{
+    height: 100%;
+    width:100%;
+    border-radius: 30px;
+    border: none;
+
+
+}
+.btnSearch{
+    height: 100%;
+    width: 10%;
+    background-color: cyan;
+    color: white;
+    border-radius: 30px;
+    transform: translate(-45px);
+    border: none;
+}
+.btnSearch:hover{
+    color: black;
+}
+.movie-info a{
+    text-decoration: none;
+    color: black;
+}
+.movie-card .movie-image img{
+    width: 100%;
+    height: auto;
+    display: flex;
+    border-radius:10px ;
+}
+.option img{
+    width: 20px;
+    height: auto;
+    display: flex;
+}
+.movie-tag{
+    background-color: rgb(1, 36, 58);
+    border: 2px solid rgb(10, 148, 2);
+    position: absolute;
+    top: 75%;
+    left: 10%;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+}
+.movie-show{
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+.movie-card{
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 6px 6px 9px 5px #c18c8c;
+}
+.movie-info{
+    text-align: center;
+}
+.option{
+    position: absolute;
+    top: 25%;
+    right: 10%;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+.option a{
+    cursor: pointer;
+}
+.movie-show{
+    width: 1280px;
+    margin: 2% 5%;
+}
+.movie-info h2{
+    font-size: 18px;
+}

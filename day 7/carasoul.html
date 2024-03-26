@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/css/owl.theme.default.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+</head>
+<body>
+    <div class="owl-carousel owl-theme" id="movie-banner">
+        <div class="item">
+            <img src="img/58d0b99666b285d2c484fec5dfaa23f0.jpg">
+        </div>
+        <div class="item">
+            <img src="img/58d0b99666b285d2c484fec5dfaa23f0.jpg">
+        </div>
+        <div class="item">
+            <img src="img/58d0b99666b285d2c484fec5dfaa23f0.jpg">
+        </div>
+        <div class="item">
+            <img src="img/58d0b99666b285d2c484fec5dfaa23f0.jpg">
+        </div>
+        <div class="item">
+            <img src="img/58d0b99666b285d2c484fec5dfaa23f0.jpg">
+        </div>
+        <div class="item">
+            <img src="img/58d0b99666b285d2c484fec5dfaa23f0.jpg">
+        </div>
+        <div class="item">
+            <img src="img/58d0b99666b285d2c484fec5dfaa23f0.jpg">
+        </div>
+        <div class="item">
+            <img src="img/58d0b99666b285d2c484fec5dfaa23f0.jpg">
+        </div>
+    </div>
+
+
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            $('#movie-banner').owlCarousel({
+                autoplay: 7000,
+                nav: false,
+                loop: true,
+                mouseDrag: true,
+                dots: false,
+                autoplayHoverPause: true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 3,
+                        margin:20
+                    },
+                    1000: {
+                        items: 5,
+                        margin:20
+                    }
+                }
+            })
+        });
+
+    </script>
+    
+    <script src="js/owl.carousel.min.js"></script>
+</body>
+</html>

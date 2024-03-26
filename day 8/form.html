@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/form.js"></script>
+    
+</head>
+<body>
+    <table border="0" style="border-collapse: collapse;" id="table"> 
+        <tr>
+            <td>Name</td>
+            <td><input type="text" id="txtName"></td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td><input type="email" id="txtEmail"></td>
+        </tr>
+        <tr>
+            <td>Password</td>
+            <td><input type="password" id="txtPass"></td>
+        </tr>
+        <tr>
+            <td>Gender</td>
+            <td>
+                <input type="radio" name="gender" value="Male">Male
+                <input type="radio" name="gender" value="Female">Female
+                <input type="radio" name="gender" value="Others">Others
+
+            </td>
+        </tr>
+        <tr>
+            <td>Phone Number</td>
+            <td><input type="text" id="txtPhone"></td>
+        </tr>
+        <tr>
+            <td>DOB</td>
+            <td><input type="date" id="txtDate"></td>
+        </tr>
+        <tr>
+            <td>Faculty</td>
+            <td>
+                <select id="slcFaculty">
+                    <option value="Science">Science</option>
+                    <option value="Management">Management</option>
+                    <option value="Law">Law</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Image</td>
+            <td><input type="file"></td>
+        </tr>
+        <tr>
+            <td>Intrest</td>
+            <td>
+                <input type="checkbox" name="interest" value="Reading"> Reading
+                <input type="checkbox" name="interest" value="Sports"> Sports
+                <input type="checkbox" name="interest" value="Travelling"> Travelling
+                <input type="checkbox" name="interest" value="Gaming"> Gaming
+
+            </td>
+        </tr>
+        <tr>
+            <td><input type="button" id="btnSubmit" class="btnSubmit" value="Submit"></td>
+            <td><input type="button" id="btnCancel" class="btnCancel" value="Cancel"></td>
+        </tr>
+    </table>
+</body>
+</html>

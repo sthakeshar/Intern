@@ -1,0 +1,182 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: 0px;
+}
+.info-section {
+	background-color: rgba(0, 0, 0, 0.78);
+	width: 100%;
+}
+
+.info {
+	height: 510px;
+	/* // width: 1310px; /   */
+	width: 100%;
+	background-repeat: no-repeat;
+	display: flex;
+	position: relative;
+	background-size: cover;
+	background-position: left calc((50vw - 170px) - 340px) top;
+}
+
+.info-img {
+	width: 80%;
+	height: auto;
+	transform: translate(10%, 5%);
+}
+
+.info-img img {
+	border-radius: 10px;
+	width: 315px;
+}
+
+.info-details {
+	color: white;
+	position: absolute;
+	left: 470px;
+	top: 40px;
+}
+
+.info-details img {
+	width: 30px;
+	height: 30px;
+}
+
+.movie-score span {
+	background-color: rgb(1, 36, 58);
+	border: 2px solid rgb(10, 148, 2);
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+	color: white;
+}
+
+.movie-genre {
+	display: flex;
+	list-style: none;
+	padding-top: 10px;
+	align-items: center;
+	gap: 5px;
+}
+
+.movie-icons {
+	display: flex;
+	list-style: none;
+	align-items: center;
+	gap: 10px;
+	padding-top: 20px;
+}
+
+.movie-rate {
+	background-color: rgb(1, 36, 58);
+	border: 2px solid rgb(10, 148, 2);
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+	color: white;
+}
+
+.movie-icons .img {
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	background-color: #032541;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.movie-icons img {
+	height: 15px;
+	width: 15px;
+}
+
+.r-rate {
+	height: 20px;
+	width: 30px;
+	border: 1px solid white;
+	border-radius: 3px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+
+.info-details h4 {
+	padding-top: 20px;
+	font-style: italic;
+	font-weight: 300;
+	font-size: 18px;
+}
+
+.info-details h3 {
+	padding-top: 30px;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.info-details .plot {
+	padding-top: 10px;
+}
+
+.credit {
+	display: flex;
+	gap: 200px;
+	padding-top: 60px;
+}
+
+.credit ul {
+	list-style: none;
+}
+
+.credit .name {
+	font-weight: bold;
+}
+
+/* / For section 2 inside the movie details page  / */
+.show-date {
+	display: flex;
+	justify-content: center;
+}
+
+.date-box {
+	background-color: #00aad3;
+	height: 55px;
+	width: 35px;
+	border-radius: 5px;
+	align-items: center;
+	padding: 10px;
+	color: white;
+	text-align: center;
+}
+
+.day {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.tab {
+	background-color: #f0f0f0;
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+	height: 40px;
+	margin-top: 20px;
+}
+
+.tab button {
+	height: 40px;
+	width: 100%;
+	border: none;
+}
+
+.tab button:hover {
+	background-color: #bcb1b1;
+}

@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #3c4f35;
+}
+
+header {
+  background: black;
+  width: 100%;
+  height: 100px;
+  /* position: relative; */
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0px;
+  z-index: 999;
+}
+header ul {
+  display: flex;
+  gap: 20px;
+  color: white;
+  list-style: none;
+  font-weight: bolder;
+}
+header a {
+  text-decoration: none;
+  color: yellow;
+  transition: 0.5s ease;
+}
+header a:hover {
+  color: white;
+  transform: scale(1.24);
+}
+header .logo img {
+  height: 100px;
+  width: auto;
+}/*# sourceMappingURL=new.css.map */

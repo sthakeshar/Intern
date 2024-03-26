@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            // $('#btnSubmit').click(function(){
+            //     alert("you have clicked submit");
+            // });
+            // $('#btnCancel').click(function(){
+            //     alert("you have clicked cancel");
+            // });
+            $('#btnSubmit').off('click').on('click',function(){
+                let name=$('#txtName').val();
+                let email=$('#txtEmail').val();
+                
+                console.log(name,email);
+            });
+        });
+    </script>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>Name</td>
+            <td><input type="text" id="txtName"></td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td><input type="text" id="txtEmail"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="submit" id="btnSubmit"></td>
+            <td><input type="button" value="cancel" id="btnCancel"></td>
+        </tr>
+    </table>
+</body>
+</html>

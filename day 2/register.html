@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color:chocolate;
+            background-image: url("nepal.png");
+
+        }
+
+        th,td {
+            padding: 5px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        tr:hover {
+            background-color: coral;
+        }
+
+        h3 {
+            text-align: center;
+            background-color: rgb(205, 189, 87);
+            padding-top: 15px;
+            height: 50px;
+        }
+
+        table {
+            margin-left: 350px;
+            width: 45%;
+        }
+        #btn1{
+            font-size: 30px;
+            padding-right:20px;
+            border-radius: 15px;
+        }
+        #btn2{
+            float: right;
+            font-size: 30px;
+            padding-left:20px;
+            border-radius: 15px;
+        }
+        #btn1:hover{
+            background-color: blueviolet;
+        }
+        #btn2:hover{
+            background-color: red;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <table border="1" style="border-collapse: collapse;">
+        
+            <h3>Register form </h3>
+        </th>
+        <tr>
+            <td>
+                <label for="">Name:</label>
+                <input type="text" placeholder="Enter your name ">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="">Email:</label>
+                <input type="email" placeholder="Enter your email id">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="">Password:</label>
+                <input type="password" useChar="#" placeholder="Enter your valid password">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="Gender">Gender</label>
+                <input type="radio" name="Gender" value="male">Male
+                <input type="radio" name="Gender" value="female">Female
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="">DOB:</label>
+                <input type="date" placeholder="">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="">Faculty:</label>
+                <select name="faculty" id="">
+                    <option value="">BCA</option>
+                    <option value="">CIVIL</option>
+                    <option value="">BCOM</option>
+                    <option value="">BBA</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="">Image:</label>
+                <input type="file">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="">Intrest:</label>
+                <input type="checkbox" name="Intrest" value="1">Sports
+                <input type="checkbox" name="Intrest" value="2">Reading
+                <input type="checkbox" name="Intrest" value="3">Coading
+            </td>
+        </tr>
+
+
+        <tr>
+            <td>
+                <label for="">Is remote</label>
+                <input type="radio" name="remote" id="" value="0">No
+                <input type="radio" name="remote" id="" value="1">Yes
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for=""></label>
+                <input type="button" name="save" id="btn1" value="Save">
+                <input type="button" name="save" id="btn2" value="Cancel">
+            </td>
+        </tr>
+
+
+    </table>
+</body>
+
+</html>

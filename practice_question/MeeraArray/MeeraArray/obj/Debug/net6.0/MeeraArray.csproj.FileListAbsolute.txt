@@ -1,0 +1,14 @@
+D:\intern\practice_question\MeeraArray\MeeraArray\bin\Debug\net6.0\MeeraArray.exe
+D:\intern\practice_question\MeeraArray\MeeraArray\bin\Debug\net6.0\MeeraArray.deps.json
+D:\intern\practice_question\MeeraArray\MeeraArray\bin\Debug\net6.0\MeeraArray.runtimeconfig.json
+D:\intern\practice_question\MeeraArray\MeeraArray\bin\Debug\net6.0\MeeraArray.dll
+D:\intern\practice_question\MeeraArray\MeeraArray\bin\Debug\net6.0\MeeraArray.pdb
+D:\intern\practice_question\MeeraArray\MeeraArray\obj\Debug\net6.0\MeeraArray.GeneratedMSBuildEditorConfig.editorconfig
+D:\intern\practice_question\MeeraArray\MeeraArray\obj\Debug\net6.0\MeeraArray.AssemblyInfoInputs.cache
+D:\intern\practice_question\MeeraArray\MeeraArray\obj\Debug\net6.0\MeeraArray.AssemblyInfo.cs
+D:\intern\practice_question\MeeraArray\MeeraArray\obj\Debug\net6.0\MeeraArray.csproj.CoreCompileInputs.cache
+D:\intern\practice_question\MeeraArray\MeeraArray\obj\Debug\net6.0\MeeraArray.dll
+D:\intern\practice_question\MeeraArray\MeeraArray\obj\Debug\net6.0\refint\MeeraArray.dll
+D:\intern\practice_question\MeeraArray\MeeraArray\obj\Debug\net6.0\MeeraArray.pdb
+D:\intern\practice_question\MeeraArray\MeeraArray\obj\Debug\net6.0\MeeraArray.genruntimeconfig.cache
+D:\intern\practice_question\MeeraArray\MeeraArray\obj\Debug\net6.0\ref\MeeraArray.dll
